@@ -1,0 +1,37 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `cargo test`
+*/target/*
+!/target/**/.gitkeep
+
+# Cargo-specific files
+Cargo.lock
+target/
+
+# If you're using clippy:
+.clippy/
+
+# If you're using rustfmt:
+.rustfmt.toml
+
+# If you're using rustup:
+.rustup/
+
+# If you're using IDEs:
+.idea/
+.vscode/
+
+# If you're using a coverage tool such as tarpaulin:
+.coverage/
+*.profdata
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore node_modules in case of hybrid projects
+node_modules/
